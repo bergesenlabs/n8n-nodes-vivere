@@ -16,7 +16,7 @@ export class VivereApi implements ICredentialType {
 		dark: 'file:../nodes/Vivere/vivere.dark.svg',
 	};
 
-	documentationUrl = 'https://github.com/nicholasbergesen/n8n-nodes-vivere#credentials';
+	documentationUrl = 'https://github.com/bergesenlabs/n8n-nodes-vivere#credentials';
 
 	properties: INodeProperties[] = [
 		{

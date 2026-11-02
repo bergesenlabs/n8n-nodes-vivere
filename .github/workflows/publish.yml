@@ -12,7 +12,7 @@
 #     write access to n8n-nodes-vivere. Needed for the first publish.
 #   - npm trusted publishing (no secret): on npmjs.com, package settings,
 #     Trusted Publisher, GitHub Actions, repository
-#     nicholasbergesen/n8n-nodes-vivere, workflow publish.yml. Then delete the
+#     bergesenlabs/n8n-nodes-vivere, workflow publish.yml. Then delete the
 #     NPM_TOKEN secret and the token.
 #
 # To release: bump "version" in package.json and CHANGELOG.md, merge to main,
