@@ -6,12 +6,12 @@
 	"resources": {
 		"credentialDocumentation": [
 			{
-				"url": "https://github.com/nicholasbergesen/n8n-nodes-vivere#credentials"
+				"url": "https://github.com/bergesenlabs/n8n-nodes-vivere#credentials"
 			}
 		],
 		"primaryDocumentation": [
 			{
-				"url": "https://github.com/nicholasbergesen/n8n-nodes-vivere#readme"
+				"url": "https://github.com/bergesenlabs/n8n-nodes-vivere#readme"
 			}
 		]
 	}

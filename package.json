@@ -20,7 +20,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/nicholasbergesen/n8n-nodes-vivere.git"
+		"url": "git+https://github.com/bergesenlabs/n8n-nodes-vivere.git"
 	},
 	"scripts": {
 		"build": "n8n-node build",
@@ -57,7 +57,7 @@
 		"n8n-workflow": "*"
 	},
 	"bugs": {
-		"url": "https://github.com/nicholasbergesen/n8n-nodes-vivere/issues"
+		"url": "https://github.com/bergesenlabs/n8n-nodes-vivere/issues"
 	},
 	"publishConfig": {
 		"access": "public"
