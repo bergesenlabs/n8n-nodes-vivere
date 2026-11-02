@@ -15,16 +15,14 @@ permissions:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    # The bergesenlabs org runner linux-1 lacks libatomic1, which the Node
+    # binaries setup-node downloads need, and has no sudo to add it, so the job
+    # runs in the official Node image on the runner's rootless Docker instead.
+    runs-on: [self-hosted, bergesen-big, Linux]
+    container: node:lts
 
     steps:
       - uses: actions/checkout@v6
-
-      - name: Set up Node.js
-        uses: actions/setup-node@v6
-        with:
-          node-version: 'lts/*'
-          cache: 'npm'
 
       # The node has no runtime dependencies and nothing in the dev tooling
       # needs its install scripts to lint and build.
