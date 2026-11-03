@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## 0.1.2
 
 - The repository moved to `bergesenlabs/n8n-nodes-vivere`: the package, credential documentation and node documentation links point there.
 
